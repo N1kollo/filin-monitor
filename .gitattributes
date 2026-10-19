@@ -1,0 +1,4 @@
+# Windows scripts must ship with CRLF or cmd.exe eats the first char of each line
+*.bat text eol=crlf
+*.vbs text eol=crlf
+*.py text eol=lf

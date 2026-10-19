@@ -1,0 +1,28 @@
+# SECRETS — bot token, password hash, session secret. NEVER commit.
+/config.json
+
+# Credentials next to the exe (UniFi controller, Dahua NVRs) — NEVER commit
+nvr.json
+unifi.json
+
+# Runtime data
+monitor.db
+monitor.db-journal
+logs/
+demo/_run/
+
+# Build artifacts — exe is reproducible via build-exe.bat, don't bloat git
+build/
+dist/
+*.spec
+deploy/*.7z
+deploy/ServerSignalDesk.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claude Code machine-local
+.claude/settings.local.json

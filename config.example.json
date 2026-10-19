@@ -1,0 +1,15 @@
+{
+  "app_name": "Server Signal Desk",
+  "check_interval_seconds": 30,
+  "timeout_seconds": 3,
+  "fail_threshold": 2,
+  "web_host": "0.0.0.0",
+  "web_port": 8081,
+  "history_retention_hours": 168,
+  "telegram": {
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "hosts": [],
+  "subnets": []
+}
